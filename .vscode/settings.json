@@ -1,4 +1,4 @@
 {
     "ecl.forceProxySupport": true,
-    "ecl.launchConfiguration": "HPCC-Platform"
+    "ecl.launchConfiguration": "Localhost"
 }

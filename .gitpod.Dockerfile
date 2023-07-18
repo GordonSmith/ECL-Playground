@@ -5,8 +5,8 @@ RUN sudo apt-get -y update
 # Install the hpcc-systems platform.
 WORKDIR /tmp
 
-RUN wget https://cdn.hpccsystems.com/releases/CE-Candidate-8.6.28/bin/platform/hpccsystems-platform-community_8.6.28-1focal_amd64.deb
-RUN sudo apt-get install -y --fix-missing ./hpccsystems-platform-community_8.6.28-1focal_amd64.deb
-RUN rm -f hpccsystems-platform-community_8.6.28-1focal_amd64.deb
+RUN wget https://github.com/hpcc-systems/HPCC-Platform/releases/download/community_9.2.2-1/hpccsystems-platform-community_9.2.2-1jammy_amd64_withsymbols.deb
+RUN sudo apt-get install -y --fix-missing ./hpccsystems-platform-community_9.2.2-1jammy_amd64_withsymbols.deb
+RUN rm -f hpccsystems-platform-community_9.2.2-1jammy_amd64_withsymbols.deb
 
 COPY ./environment/*.xml /etc/HPCCSystems
