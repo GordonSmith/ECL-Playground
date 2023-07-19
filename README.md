@@ -12,6 +12,7 @@ _select which environment you want to launch_
 
 ### Specific Platform Versions:
 
+* [hpcc-platform-9.2.2-1](https://gitpod.io/#https://github.com/GordonSmith/ECL-Playground/tree/hpcc-platform-9.2.2-1)
 * [hpcc-platform-8.6.28-1](https://gitpod.io/#https://github.com/GordonSmith/ECL-Playground/tree/hpcc-platform-8.6.28-1)
 * [hpcc-platform-8.4.12-1](https://gitpod.io/#https://github.com/GordonSmith/ECL-Playground/tree/hpcc-platform-8.4.12-1)
 
